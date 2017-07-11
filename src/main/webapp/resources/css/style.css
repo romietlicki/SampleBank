@@ -1,0 +1,274 @@
+body {
+	background-color: #8B0000;
+	color: #FFF;
+	font-family: Arial;
+	margin: 0;
+	padding: 0;
+}
+
+h1 {
+	font-size: 45px;
+}
+
+table {
+	border-collapse: collapse;
+}
+
+td {
+	padding: 5px;
+}
+
+a {
+	font-weight: normal;
+}
+
+a,a:visited {
+	color: #FFF;
+}
+
+select {
+    height: 30px;
+    width: 200px;
+}
+
+.sb-admin-content label {
+	color: #AAA;
+}
+
+.sb-no-formatted-link {
+	color: #FFF;
+	font-weight: bold;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+label {
+	font-weight: 400;
+	font-size: 16px;
+	font-family: 'Open Sans', sans-serif;
+	direction: ltr;
+	color: #AAA;
+	font-weight: bold;
+}
+
+.sb-white-label {
+	color: #FFF;
+}
+
+input[type="text"], input[type="password"] {
+	font-size: 16px;
+}
+
+input:focus
+{	
+	border-color: rgba(82,168,236,0.8);
+	outline: 0;
+	outline: thin dotted \9;
+	-webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,0.075),0 0 8px rgba(82,168,236,0.6);
+	-moz-box-shadow: inset 0 1px 1px rgba(0,0,0,0.075),0 0 8px rgba(82,168,236,0.6);
+	box-shadow: inset 0 1px 1px rgba(0,0,0,0.075),0 0 8px rgba(82,168,236,0.6);
+}
+
+.well-formated-input
+{
+	height: 34px;
+	font-size: 14px;
+	border: 1px solid #e5e5e5;
+	-webkit-transition:border-color ease-in-out .15s, 
+		box-shadow ease-in-out .15s;
+	transition: border-color ease-in-out .15s, 
+		box-shadow ease-in-out .15s;
+	-webkit-appearance: textfield;
+}
+
+.linkButton {
+	font-weight: bold;
+}
+
+.sb-index-container {
+	width: 410px;
+	margin: 40px auto;
+}
+
+.sb-title {
+	width: 100%;
+	text-align: center;
+	margin-top: -100px;
+}
+
+.sb-login-area {
+	width: 300px;
+	height: 120px;
+	padding: 40px 10px 15px 10px;
+	position: absolute;
+	right: 20px;
+	top: 20px;
+	background-color: #555;
+	border: 1px solid #AAA;
+	border-radius: 6px;
+	-moz-border-radius: 6px;
+}
+
+.sb-footer {
+	width: 100%;
+	height: 40px;
+	position: absolute;
+	left: 0;
+	bottom: 10px;
+	text-align: center;
+	vertical-align: middle;
+	font-size: 14px;
+	font-weight: bold;
+	top: 725px;
+}
+
+.sb-top-logo {
+	position: absolute;
+	top: 8px;
+	left: 12px;
+	font-weight: bold;
+}
+
+.sb-banner {
+    left: 70px;
+    top: 30px;
+    position: absolute;
+}
+
+.top-rule {
+	margin-top: 70px;
+}
+
+.sb-button {
+	width: 150px;
+	height: 30px;
+}
+
+.sb-center-table {
+	margin: 0 auto;
+}
+
+.sb-login-info {
+	position: absolute;
+	top: 10px;
+	right: 20px;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+.sb-admin-content {
+	padding: 15px;
+	position: absolute;
+	width: 900px;
+	height: 600px;
+	top: 90px;
+	left: 350px;
+	color: black;
+	background-color: #FFF;
+	border: 1px solid #AAA;
+	border-radius: 6px;
+	-moz-border-radius: 6px;
+}
+
+.sb-error-message {
+	width: 100%;
+	font-weight: bold;
+	font-size: 14px;
+	background-color: red;
+	color: white;
+	display: inline-block;
+	padding: 10px;
+}
+
+.sb-success-message {
+	width: 100%;
+	font-weight: bold;
+	font-size: 14px;
+	background-color: green;
+	color: white;
+	display: inline-block;
+	padding: 10px;
+}
+
+.sb-content-desc {
+	display: inline-block;
+	width: 100%;
+	background-color: #AAA;
+	font-weight: bold;
+	padding: 5px;
+	margin-bottom: 20px;
+}
+
+.sb-mandatory-info {
+	font-weight: normal;
+	color: red;
+	font-size: 12px;
+}
+
+#sb-return-message {
+	display: inline-block;
+    width: 98%;
+    margin-left: -6;
+}
+
+/* Menu */
+.sb-admin-menu {
+	position: absolute;
+	top: 90px;
+	left: 20px;
+	font-size: 14px;
+	font-weight: bold;
+	color: green;
+}
+
+.sb-admin-menu dl {
+	width: 300px;
+}
+
+.sb-admin-menu dl,dd {
+	margin: 0;
+}
+
+.sb-admin-menu dt {
+	background: orange;
+	font-size: 19px;
+	padding: 5px;
+	margin: 2px;
+}
+
+.sb-admin-menu dt a {
+	color: #FFF;
+	text-decoration: none;
+}
+
+.sb-admin-menu dd a {
+	display: block;
+	padding: 0 0 0 10px;
+	color: #333;
+	text-decoration: none;
+	background: #EAEAEA;
+	margin: 3px;
+	line-height: 22px;
+}
+
+.sb-table-button-row {
+    border: 1px solid #AAA;
+}
+
+.sb-account-info-table {
+	width: 99%;
+	color: #000;
+}
+
+.sb-account-info-table th, .sb-account-info-table td {
+    border: 1px solid #555;
+    border-collapse: collapse;
+}
+
+.sb-account-info-table th, .sb-account-info-table td {
+    padding: 5px;
+}
+
+.even-row-bg {
+	background-color: #ADD8E6;
+}
